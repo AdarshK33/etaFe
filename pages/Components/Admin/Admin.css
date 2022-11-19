@@ -1,0 +1,7 @@
+.ant-tabs-card.ant-tabs-top > .ant-tabs-nav .ant-tabs-tab, .ant-tabs-card.ant-tabs-top > div > .ant-tabs-nav .ant-tabs-tab {
+    border-radius: 2px 2px 0 0;
+    padding: 10px 127px;
+}
+.ant-tabs-card > .ant-tabs-nav .ant-tabs-ink-bar, .ant-tabs-card > div > .ant-tabs-nav .ant-tabs-ink-bar {
+    visibility: visible;
+}

@@ -1,0 +1,65 @@
+.create-employee-main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 10px;
+}
+.save-clear-buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+.save-clear-buttons button{
+    margin-left: 10px;
+    border-radius: 10px;
+    padding: 2px 15px;
+    cursor: pointer;
+}
+.create-employee-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.save-button{
+    margin: 10px;
+}
+.update-button{
+    margin: 10px;
+}
+.label-field-create{
+    width: 140px;
+    text-align: right;
+    margin-right: 20px;
+}
+.label-field-create span{
+    margin-right: 20px;
+}
+.edit-btn{
+    margin-left: 10px;
+}
+.create-employee-title{
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 50px;
+}
+.create-container{
+    width: 100%;
+}
+.close-btn{
+    background-color: #ff9400;
+    color: white;
+    border: 1px solid #ff9400;
+    padding: 5px 10px;
+    height: 33px;
+}
+.project-container{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.task-input-select{
+    width: 185px;
+}

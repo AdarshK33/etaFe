@@ -1,0 +1,31 @@
+.header-main{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    background-color: #11A8FD;
+    color: white;
+    position: sticky;
+}
+.user-details{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: right;
+}
+.employee-name{
+    margin: 20px;
+    color: white;
+}
+.user-details{
+    margin-top: 10px;
+    width: 15%;
+}
+ul {
+    list-style: none;
+}
+.user-logo{
+    border-radius: 50px;
+    margin-top: 10px;
+}
+.header-icons{
+    margin: 10px;
+}

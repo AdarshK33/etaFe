@@ -1,0 +1,58 @@
+.time-sheet{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    margin-top: 5px;
+    margin-bottom: 16px;
+    align-items: center;
+}
+.select-date{
+    margin: 5px 10px 0 0;
+}
+.weekly-montly-reports{
+    text-align: center;
+}
+.print-close-button{
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+}
+.print-download-button{
+    margin: 10px;
+    padding: 5px 15px;
+    color: white;
+    background-color: #11A8FD;
+    border: 1px solid #11A8FD;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.save-button{
+    margin: 10px;
+    padding: 5px 15px;
+    background-color: #ff9400;
+    border: 1px solid #ff9400;
+    color: white;
+    cursor: pointer;
+    border-radius: 10px;
+}
+.modal-print-close-button{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+.modal-select-date{
+    margin: 5px 10px 0 -15px;
+}
+.modal-print-downlaod-button{
+    margin: 10px 10px 10px 0;
+}
+.modal-close-button{
+    margin: 10px 0 10px 10px;
+}
+.ant-modal-footer {   
+    display: none;
+}
+.ant-modal{
+    border-radius: 10px;
+}

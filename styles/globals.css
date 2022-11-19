@@ -1,0 +1,117 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.ant-select {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  color: rgba(0, 0, 0, 0.85);
+  font-size: 14px;
+  font-variant: tabular-nums;
+  line-height: 1.5715;
+  list-style: none;
+  font-feature-settings: "tnum", "tnum";
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  width: 100%;
+}
+
+.ant-tabs-top > .ant-tabs-nav,
+.ant-tabs-bottom > .ant-tabs-nav,
+.ant-tabs-top > div > .ant-tabs-nav,
+.ant-tabs-bottom > div > .ant-tabs-nav {
+  margin: 0;
+}
+.ant-tabs-content {
+  position: relative;
+  width: 100%;
+  margin-top: -20px;
+  background-color: #f9fcff;
+  height: 79vh;
+}
+.ant-tabs > .ant-tabs-nav .ant-tabs-nav-more,
+.ant-tabs > div > .ant-tabs-nav .ant-tabs-nav-more {
+  display: none;
+}
+.ant-tabs > .ant-tabs-nav .ant-tabs-nav-wrap,
+.ant-tabs > div > .ant-tabs-nav .ant-tabs-nav-wrap {
+  position: relative;
+  display: inline-block;
+  display: flex;
+  flex: auto;
+  align-self: stretch;
+  overflow: hidden;
+  white-space: nowrap;
+  transform: translate(0);
+  background-color: #f9fcff;
+}
+.close-btn {
+  background-color: #ff9400;
+  cursor: pointer;
+}
+.close-btn-login {
+  background-color: #ff9400;
+  color: white;
+  border: 1px solid #ff9400;
+  padding: 5px 10px;
+  height: 33px;
+  cursor: pointer;
+  border-radius: 10px;
+  margin-top: 15px;
+}
+.project-modal {
+  padding: 24px;
+  font-size: 14px;
+  line-height: 1.5715;
+  word-wrap: break-word;
+  display: flex;
+  justify-content: center;
+}
+.label-field-project {
+  width: 117px;
+  text-align: right;
+  margin-right: 28px;
+}
+.label-names-project {
+  margin-right: 30px;
+}
+h5 {
+  text-align: center;
+}
+.project-add {
+  background-color: #ff9400;
+  border: 1px solid #ff9400;
+  color: white;
+  border-radius: 22px;
+  height: 37px;
+  padding: 1px 13px;
+  margin: 0px 10px 10px 25rem;
+  cursor: pointer;
+}
+.employee-moodal {
+  width: 100%;
+}
+.project-title-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.project-title {
+  margin-left: 31rem;
+}
+.ant-modal {
+  border-radius: 20px !important;
+}
+.ant-modal-content {
+  border-radius: 20px !important;
+}
+.ant-modal-header {
+  padding: 16px 24px;
+  color: rgba(0, 0, 0, 0.85);
+  background: #fff;
+  border-bottom: 1px solid #f0f0f0;
+  border-radius: 20px !important;
+}
